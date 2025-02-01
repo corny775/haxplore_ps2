@@ -102,9 +102,9 @@ export const Navbar = () => {
               <Link href={'#'}>Contact</Link>
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
-            <div className="text-center mt-12 space-x-16 pb-8">
-              <button className="text-2xl bg-cyan-400 p-5 py-2 rounded-full hover:text-white">Log in</button>
-              <button className="text-2xl hover:text-zinc-500">Sign Up</button>
+            <div className="text-center mt-6 space-x-4 pb-6">
+              <button className="text-xl text-slate-800 bg-green-300 px-6 py-2 rounded-full hover:bg-green-400">Log in</button>
+              <button className="text-xl text-slate-800 bg-green-100 px-6 py-2 rounded-full border-2 border-green-300 hover:bg-green-200">Sign Up</button>
             </div>
           </ul>
         </div>
