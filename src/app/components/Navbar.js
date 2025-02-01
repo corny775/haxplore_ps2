@@ -59,14 +59,11 @@ export const Navbar = () => {
   }, [menu])
 
   return (
-    <div className="bg-white h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
+    <div className=" h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
       {/* Logo Section */}
       <div className="">
         <h1 className="text-3xl font-semibold flex">
-          <div className="logo">L</div>
-          <div className="logo">O</div>
-          <div className="logo">G</div>
-          <div className="logo">O</div>
+          <div className="logo"><img src="/logo.png" alt="" className="h-40 w-40" /></div>
         </h1>
       </div>
 
