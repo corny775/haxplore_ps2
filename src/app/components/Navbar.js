@@ -80,7 +80,7 @@ export const Navbar = () => {
         </div>
 
         {/* Menu Section - Positioned below the bars */}
-        <div className={`home fixed w-80 mt-16 mr-8 right-0 transition-all duration-300`}>
+        <div className={`home fixed w-80 mt-16 mr-8 right-0`}>
           <ul className="flex flex-col w-full bg-white rounded-3xl">
             <li className="inline-block text-2xl text-center py-5 hover:text-zinc-500">
               <Link href={'/'}>Home</Link>
