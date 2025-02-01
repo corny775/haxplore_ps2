@@ -63,10 +63,7 @@ export const Navbar = () => {
       {/* Logo Section */}
       <div className="">
         <h1 className="text-3xl font-semibold flex">
-          <div className="logo">L</div>
-          <div className="logo">O</div>
-          <div className="logo">G</div>
-          <div className="logo">O</div>
+          <div className="logo"><img src="/logo.png" alt="" className="h-40 w-40" /></div>
         </h1>
       </div>
 
