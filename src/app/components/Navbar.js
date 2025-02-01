@@ -99,7 +99,7 @@ export const Navbar = () => {
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <li className="inline-block text-2xl text-center py-5 hover:text-zinc-500">
-              <Link href={'#'}>Contact</Link>
+              <Link href="/contacts">Contact</Link>
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <div className="text-center mt-6 space-x-4 pb-6">
