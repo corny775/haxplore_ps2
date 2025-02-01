@@ -59,7 +59,7 @@ export const Navbar = () => {
   }, [menu])
 
   return (
-    <div className="bg-white h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
+    <div className=" h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
       {/* Logo Section */}
       <div className="">
         <h1 className="text-3xl font-semibold flex">
