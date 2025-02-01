@@ -59,14 +59,11 @@ export const Navbar = () => {
   }, [menu])
 
   return (
-    <div className="bg-white h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
+    <div className=" h-[5vw] w-full flex items-center justify-between px-12 fixed z-[999]">
       {/* Logo Section */}
       <div className="">
         <h1 className="text-3xl font-semibold flex">
-          <div className="logo">L</div>
-          <div className="logo">O</div>
-          <div className="logo">G</div>
-          <div className="logo">O</div>
+          <div className="logo"><img src="/logo.png" alt="" className="h-40 w-40" /></div>
         </h1>
       </div>
 
@@ -87,7 +84,7 @@ export const Navbar = () => {
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <li className="inline-block text-2xl text-center py-5 hover:text-zinc-500">
-              <Link href={'#'}>Photo Collage</Link>
+              <Link href="/CollageMaker">Collage Maker</Link>
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <li className="inline-block text-2xl text-center py-5 hover:text-zinc-500">
@@ -99,7 +96,7 @@ export const Navbar = () => {
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <li className="inline-block text-2xl text-center py-5 hover:text-zinc-500">
-              <Link href={'#'}>Contact</Link>
+              <Link href="/contacts">Contact</Link>
             </li>
             <div className="inline-block h-[.5px] w-full bg-black"></div>
             <div className="text-center mt-6 space-x-4 pb-6">
